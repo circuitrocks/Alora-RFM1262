@@ -39,13 +39,13 @@
 /*********************************************************************/
 /*********************************************************************/
 // Change this to the GPIO connected to the RFM1262 NSS pin
-#define RFM1262_NSS 5 // Default SPI CS
+#define RFM1262_NSS 33 // Default SPI CS
 // Change this to the GPIO connected to the RFM1262 DIO1 pin
-#define RFM1262_DIO1 6 // GPIO 6
+#define RFM1262_DIO1 14 // GPIO 6
 // Change this to the GPIO connected to the RFM1262 BUSY pin
-#define RFM1262_BUSY 9 // GPIO 9
+#define RFM1262_BUSY 27 // GPIO 9
 // Change this to the GPIO connected to the RFM1262 RST pin
-#define RFM1262_RST 13 // GPIO 13
+#define RFM1262_RST 32 // GPIO 13
 #pragma message("Building for ESP32!")
 #elif defined (__AVR_ATmega328P__)
 /*********************************************************************/
